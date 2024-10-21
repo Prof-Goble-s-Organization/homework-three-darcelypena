@@ -270,7 +270,7 @@ public class No5Tests {
     	addList.add("new2");
     	addList.add("new3");
     	
-    	myList.addAllAt(5, addList);
+    	myList.addAllAt(4, addList);
     	
     	assertEquals("Incorrect list length", 8, myList.size());
     	assertEquals("Incorrect value at 4", "Test5", myList.get(4));
