@@ -13,7 +13,7 @@ public interface CS232Iterable<E> {
 	/**
 	 * Get a CS232Iterator for the elements of this data structure.
 	 * 
-	 * @return a CS232Iterator for the data structure.
+	 * @return a CS232Iterator for the data structure. 
 	 */
 	public CS232Iterator<E> getIterator();
 }
